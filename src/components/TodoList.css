@@ -1,0 +1,44 @@
+.todo__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.todo {
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-self: center;
+}
+
+.todo__list-form {
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px darkgray;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    width: 500px;
+    position: relative;
+}
+
+.todo__list-form_input {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.todo__list-item_done {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+.todo__list-scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 450px;
+    margin-top: 20px;
+}

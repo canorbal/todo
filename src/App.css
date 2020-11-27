@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body, #root, .todo-app {
+  background-color: #f5f5f5;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.todo-app {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
